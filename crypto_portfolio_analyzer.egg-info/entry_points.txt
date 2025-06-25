@@ -1,0 +1,10 @@
+[console_scripts]
+crypto-portfolio = crypto_portfolio_analyzer.cli:main
+
+[crypto_portfolio_analyzer.commands]
+config = crypto_portfolio_analyzer.commands.config:config_group
+portfolio = crypto_portfolio_analyzer.commands.portfolio:portfolio_group
+
+[crypto_portfolio_analyzer.plugins]
+core_config = crypto_portfolio_analyzer.plugins.config:ConfigPlugin
+core_portfolio = crypto_portfolio_analyzer.plugins.portfolio:PortfolioPlugin

@@ -1,0 +1,141 @@
+[flake8]
+# Flake8 configuration for Crypto Portfolio Analyzer
+# This file defines linting rules and code quality standards
+
+# Maximum line length
+max-line-length = 88
+
+# Maximum cyclomatic complexity
+max-complexity = 10
+
+# Error codes to ignore
+extend-ignore = 
+    # E203: whitespace before ':' (conflicts with black)
+    E203,
+    # W503: line break before binary operator (conflicts with black)
+    W503,
+    # E501: line too long (handled by black)
+    E501,
+    # F401: imported but unused (handled per-file)
+    # S101: use of assert (allowed in tests)
+    # S106: possible hardcoded password (handled by bandit separately)
+
+# Per-file ignores
+per-file-ignores =
+    # __init__.py files can have unused imports
+    __init__.py:F401,
+    # Test files can use assert statements and have relaxed security
+    tests/*:S101,S106,S108,S311,S603,S607,
+    # Scripts can have relaxed rules
+    scripts/*:S101,S603,S607,
+    # Configuration files
+    */config/*:S105,S106,
+    # Plugin files may have dynamic imports
+    */plugins/*:F401,
+
+# Directories to exclude from linting
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    env,
+    .env,
+    build,
+    dist,
+    .eggs,
+    *.egg-info,
+    .pytest_cache,
+    .mypy_cache,
+    .coverage,
+    htmlcov,
+    .tox,
+    docs/_build,
+    node_modules,
+
+# File patterns to include
+filename = 
+    *.py
+
+# Docstring conventions
+docstring-convention = google
+
+# Import order style
+import-order-style = google
+
+# Application import names (for import order checking)
+application-import-names = crypto_portfolio_analyzer
+
+# Enable specific error codes
+select = 
+    # Pyflakes
+    F,
+    # Pycodestyle errors
+    E,
+    # Pycodestyle warnings  
+    W,
+    # McCabe complexity
+    C,
+    # Docstring errors
+    D,
+    # Bugbear
+    B,
+    # Comprehensions
+    C4,
+    # Simplify
+    SIM,
+    # Bandit security
+    S,
+    # Annotations
+    ANN,
+    # Typing imports
+    TI,
+
+# Specific rules configuration
+# D100: Missing docstring in public module
+# D104: Missing docstring in public package
+# D105: Missing docstring in magic method
+# D107: Missing docstring in __init__
+# D200: One-line docstring should fit on one line
+# D212: Multi-line docstring summary should start at the first line
+ignore-decorators = 
+    @property,
+    @staticmethod,
+    @classmethod,
+    @abstractmethod,
+    @overload,
+
+# Annotations configuration
+mypy-init-return = True
+suppress-dummy-args = True
+
+# Bugbear configuration
+extend-immutable-calls = 
+    fastapi.Depends,
+    fastapi.Query,
+    fastapi.Path,
+
+# Security configuration (Bandit integration)
+# These are handled by dedicated bandit runs but included for completeness
+bandit-skip = B101,B601
+
+# Statistics and reporting
+statistics = True
+count = True
+show-source = True
+show-pep8 = True
+
+# Benchmark mode for performance testing
+benchmark = False
+
+# Format for error messages
+format = %(path)s:%(row)d:%(col)d: %(code)s %(text)s
+
+# Enable color output
+color = auto
+
+# Tee output to file
+tee = False
+
+# Jobs for parallel execution
+jobs = auto

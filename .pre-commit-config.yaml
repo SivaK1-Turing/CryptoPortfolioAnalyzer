@@ -1,0 +1,198 @@
+# Pre-commit hooks configuration for Crypto Portfolio Analyzer
+# This file defines code quality checks that run before each commit
+
+repos:
+  # Built-in hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-docstring-first
+      - id: debug-statements
+      - id: name-tests-test
+        args: ['--pytest-test-first']
+
+  # Black code formatting
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+        language_version: python3
+        args: ['--line-length=88', '--target-version=py38']
+
+  # isort import sorting
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: ['--profile=black', '--line-length=88']
+
+  # flake8 linting with custom rules
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8
+        additional_dependencies:
+          - flake8-docstrings
+          - flake8-bugbear
+          - flake8-comprehensions
+          - flake8-simplify
+          - flake8-bandit
+          - flake8-annotations
+          - flake8-typing-imports
+        args:
+          - '--max-line-length=88'
+          - '--extend-ignore=E203,W503,E501'
+          - '--per-file-ignores=__init__.py:F401,tests/*:S101,S106'
+          - '--max-complexity=10'
+          - '--docstring-convention=google'
+
+  # mypy static type checking with strict mode
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.3.0
+    hooks:
+      - id: mypy
+        args:
+          - '--strict'
+          - '--ignore-missing-imports'
+          - '--no-warn-unused-ignores'
+          - '--show-error-codes'
+          - '--python-version=3.8'
+        additional_dependencies:
+          - types-PyYAML
+          - types-requests
+          - types-tabulate
+          - types-python-dateutil
+        exclude: ^(tests/|docs/|scripts/)
+
+  # Bandit security linting
+  - repo: https://github.com/pycqa/bandit
+    rev: 1.7.5
+    hooks:
+      - id: bandit
+        args:
+          - '-r'
+          - 'crypto_portfolio_analyzer'
+          - '--skip=B101,B601'  # Skip assert and shell injection (for tests)
+          - '--format=custom'
+          - '--msg-template={abspath}:{line}: {test_id}[bandit]: {severity}: {msg}'
+        exclude: ^tests/
+
+  # Security vulnerability scanning
+  - repo: https://github.com/PyCQA/safety
+    rev: 2.3.4
+    hooks:
+      - id: safety
+        args: ['--short-report', '--ignore=51457']  # Ignore specific CVEs if needed
+
+  # Documentation checks
+  - repo: https://github.com/pycqa/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+        args:
+          - '--convention=google'
+          - '--add-ignore=D100,D104,D105,D107'  # Ignore missing docstrings for some cases
+        exclude: ^(tests/|docs/|scripts/)
+
+  # YAML linting
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.32.0
+    hooks:
+      - id: yamllint
+        args:
+          - '--format=parsable'
+          - '--strict'
+        exclude: ^\.github/
+
+  # Dockerfile linting
+  - repo: https://github.com/hadolint/hadolint
+    rev: v2.12.0
+    hooks:
+      - id: hadolint-docker
+        args: ['--ignore=DL3008,DL3009']  # Ignore specific rules if needed
+
+  # Shell script linting
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.2
+    hooks:
+      - id: shellcheck
+
+  # Secrets detection
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+        exclude: ^(\.env\.example|tests/fixtures/)
+
+  # License header check
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.1
+    hooks:
+      - id: insert-license
+        files: \.py$
+        args:
+          - --license-filepath
+          - LICENSE_HEADER.txt
+          - --comment-style
+          - '#'
+        exclude: ^(tests/|docs/|scripts/|__pycache__/)
+
+  # Conventional commits
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v2.1.1
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+        args: [optional-scope]
+
+  # Check for large files and sensitive data
+  - repo: local
+    hooks:
+      - id: check-large-files-custom
+        name: Check for large files
+        entry: python scripts/check_large_files.py
+        language: python
+        pass_filenames: false
+        always_run: true
+
+      - id: validate-config
+        name: Validate configuration files
+        entry: python -m crypto_portfolio_analyzer.scripts.validate_config
+        language: python
+        files: \.(yaml|yml|json)$
+        pass_filenames: true
+
+      - id: test-imports
+        name: Test imports
+        entry: python -c "import crypto_portfolio_analyzer; print('✓ Import test passed')"
+        language: python
+        pass_filenames: false
+        always_run: true
+
+# Global configuration
+default_stages: [commit]
+fail_fast: false
+minimum_pre_commit_version: '3.0.0'
+
+# CI configuration
+ci:
+  autofix_commit_msg: |
+    [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+    for more information, see https://pre-commit.ci
+  autofix_prs: true
+  autoupdate_branch: ''
+  autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
+  autoupdate_schedule: weekly
+  skip: []
+  submodules: false
