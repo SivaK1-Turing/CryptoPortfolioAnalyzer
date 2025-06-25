@@ -1,0 +1,40 @@
+# Core dependencies
+click
+requests
+pandas
+matplotlib
+tabulate
+reportlab
+
+# Configuration and secrets
+PyYAML
+python-dotenv
+cryptography
+
+# Async and events
+asyncio-mqtt
+
+# Logging and monitoring
+rich
+structlog
+
+# File watching for hot-reload
+watchdog
+
+# Testing dependencies
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+
+# Development dependencies
+mypy
+flake8
+black
+isort
+bandit
+pre-commit
+
+# Optional dependencies
+boto3  # For AWS KMS (optional)
+sentry-sdk  # For error reporting (optional)
