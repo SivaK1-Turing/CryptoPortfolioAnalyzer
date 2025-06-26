@@ -6,6 +6,10 @@ matplotlib
 tabulate
 reportlab
 
+# HTTP client and database
+aiohttp>=3.8.0
+aiosqlite>=0.19.0
+
 # Configuration and secrets
 PyYAML
 python-dotenv

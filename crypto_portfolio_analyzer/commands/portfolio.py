@@ -9,7 +9,7 @@ import click
 from rich.console import Console
 from rich.table import Table
 
-from crypto_portfolio_analyzer.cli import ContextAwareGroup, ContextAwareCommand
+from crypto_portfolio_analyzer.core.cli_base import ContextAwareGroup, ContextAwareCommand
 from crypto_portfolio_analyzer.core.context import get_current_context
 
 console = Console()

@@ -33,57 +33,8 @@ console = Console()
 logger = logging.getLogger(__name__)
 
 
-class ContextAwareGroup(click.Group):
-    """
-    Custom Click Group that provides context inheritance.
-    
-    This group ensures that subcommands inherit the parent context
-    while maintaining their own isolated state.
-    """
-    
-    def invoke(self, ctx: click.Context) -> Any:
-        """Invoke the group with context inheritance."""
-        # Get or create app context
-        try:
-            app_ctx = get_current_context()
-        except ValueError:
-            app_ctx = AppContext()
-            set_context(app_ctx)
-        
-        # Push current command to stack
-        app_ctx.push_command(ctx.info_name)
-        
-        # Store Click context in app context
-        app_ctx.metadata['click_context'] = ctx
-        
-        try:
-            return super().invoke(ctx)
-        finally:
-            app_ctx.pop_command()
-
-
-class ContextAwareCommand(click.Command):
-    """
-    Custom Click Command that inherits parent context.
-    
-    This command automatically inherits context from parent commands
-    and provides access to the application state.
-    """
-    
-    def invoke(self, ctx: click.Context) -> Any:
-        """Invoke the command with inherited context."""
-        # Inherit context from parent
-        app_ctx = inherit_context()
-        app_ctx.push_command(ctx.info_name)
-        app_ctx.metadata['click_context'] = ctx
-        
-        # Set the inherited context
-        set_context(app_ctx)
-        
-        try:
-            return super().invoke(ctx)
-        finally:
-            app_ctx.pop_command()
+# ContextAware classes moved to core.cli_base to avoid circular imports
+from .core.cli_base import ContextAwareGroup, ContextAwareCommand
 
 
 def setup_logging(debug: bool = False, verbose: bool = False) -> None:
@@ -315,12 +266,19 @@ def plugins() -> None:
 # No atexit handler needed as cleanup happens naturally
 
 
-# Register command groups
-from crypto_portfolio_analyzer.commands.portfolio import portfolio_group
-from crypto_portfolio_analyzer.commands.config import config_group
+# Register command groups - moved to avoid circular imports
+def register_commands():
+    """Register all command groups with the main CLI."""
+    from crypto_portfolio_analyzer.commands.portfolio import portfolio_group
+    from crypto_portfolio_analyzer.commands.config import config_group
+    from crypto_portfolio_analyzer.commands.data import data
 
-main.add_command(portfolio_group)
-main.add_command(config_group)
+    main.add_command(portfolio_group)
+    main.add_command(config_group)
+    main.add_command(data)
+
+# Register commands when module is imported
+register_commands()
 
 
 if __name__ == '__main__':

@@ -258,15 +258,16 @@ class TestContextInheritance:
             mock_init.return_value = AsyncMock()
             
             # Mock the context to verify command stack
-            with patch('crypto_portfolio_analyzer.cli.get_current_context') as mock_get_context:
+            with patch('crypto_portfolio_analyzer.core.cli_base.get_current_context') as mock_get_context:
                 mock_context = Mock()
                 mock_context.command_stack = []
                 mock_context.push_command = Mock()
                 mock_context.pop_command = Mock()
+                mock_context.metadata = {}
                 mock_get_context.return_value = mock_context
-                
+
                 result = cli_runner.invoke(main, ['portfolio', 'status'])
-                
+
                 # Verify command stack operations
                 mock_context.push_command.assert_called()
 
