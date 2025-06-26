@@ -1,0 +1,156 @@
+# Default configuration for Crypto Portfolio Analyzer
+# This file contains the default settings that can be overridden by environment variables
+# or environment-specific configuration files.
+
+# Application settings
+app:
+  name: "Crypto Portfolio Analyzer"
+  version: "0.1.0"
+  debug: false
+  verbose: false
+  
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  structured: true
+  sampling_rate: 0.01  # 1% of DEBUG logs
+  handlers:
+    console:
+      enabled: true
+      level: "INFO"
+    file:
+      enabled: true
+      level: "DEBUG"
+      filename: "logs/crypto_portfolio.log"
+      max_bytes: 10485760  # 10MB
+      backup_count: 5
+    sentry:
+      enabled: false
+      dsn: ""
+      level: "ERROR"
+      environment: "development"
+
+# Plugin system configuration
+plugins:
+  directory: "plugins"
+  hot_reload: true
+  auto_discover: true
+  entry_points:
+    - "crypto_portfolio_analyzer.plugins"
+  
+# CLI configuration
+cli:
+  auto_completion: true
+  color: true
+  pager: true
+  confirm_destructive: true
+  
+# API configuration
+api:
+  timeout: 30
+  retries: 3
+  rate_limit:
+    requests_per_second: 10
+    burst_size: 20
+  
+# Cache configuration
+cache:
+  enabled: true
+  ttl: 300  # 5 minutes
+  max_size: 1000
+  backend: "memory"  # memory, redis, file
+  
+# Database configuration
+database:
+  url: "sqlite:///crypto_portfolio.db"
+  echo: false
+  pool_size: 5
+  max_overflow: 10
+  
+# Security configuration
+security:
+  encryption:
+    algorithm: "AES-256"
+    key_rotation_days: 30
+  kms:
+    enabled: false
+    key_id: ""
+    region: "us-east-1"
+    
+# Feature flags
+features:
+  real_time_updates: true
+  advanced_analytics: true
+  export_reports: true
+  email_notifications: false
+  
+# External services
+services:
+  coingecko:
+    base_url: "https://api.coingecko.com/api/v3"
+    api_key: ""
+    rate_limit: 50  # requests per minute
+  
+  coinmarketcap:
+    base_url: "https://pro-api.coinmarketcap.com/v1"
+    api_key: ""
+    rate_limit: 333  # requests per day for free tier
+    
+  binance:
+    base_url: "https://api.binance.com/api/v3"
+    api_key: ""
+    secret_key: ""
+    
+# Portfolio settings
+portfolio:
+  default_currency: "USD"
+  supported_currencies:
+    - "USD"
+    - "EUR"
+    - "BTC"
+    - "ETH"
+  precision: 8
+  
+# Analytics configuration
+analytics:
+  metrics:
+    - "total_value"
+    - "profit_loss"
+    - "allocation"
+    - "performance"
+  time_periods:
+    - "1d"
+    - "7d"
+    - "30d"
+    - "90d"
+    - "1y"
+  
+# Visualization settings
+visualization:
+  default_theme: "dark"
+  chart_types:
+    - "line"
+    - "bar"
+    - "pie"
+    - "candlestick"
+  export_formats:
+    - "png"
+    - "svg"
+    - "pdf"
+    
+# Export settings
+export:
+  formats:
+    - "csv"
+    - "json"
+    - "pdf"
+    - "html"
+  templates_dir: "templates"
+  output_dir: "exports"
+  
+# Development settings
+development:
+  mock_api: false
+  test_data: false
+  profiling: false

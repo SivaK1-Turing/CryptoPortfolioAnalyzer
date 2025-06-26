@@ -1,0 +1,228 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-portfolio-analyzer"
+dynamic = ["version"]
+description = "A Python CLI tool for tracking cryptocurrency portfolios with real-time prices and analytics"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Crypto Portfolio Analyzer Team", email = "team@cryptoportfolio.dev"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.0.0",
+    "requests>=2.28.0",
+    "pandas>=1.5.0",
+    "matplotlib>=3.6.0",
+    "tabulate>=0.9.0",
+    "reportlab>=3.6.0",
+    # Feature 1 specific dependencies
+    "watchdog>=2.1.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=0.19.0",
+    "cryptography>=3.4.0",
+    "sentry-sdk>=1.9.0",
+    "boto3>=1.26.0",  # For AWS KMS
+    "aiofiles>=0.8.0",
+    "rich>=12.0.0",
+    "ipython>=8.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.20.0",
+    "pytest-cov>=4.0.0",
+    "mypy>=1.0.0",
+    "flake8>=5.0.0",
+    "bandit>=1.7.0",
+    "pre-commit>=2.20.0",
+    "black>=22.0.0",
+    "isort>=5.10.0",
+    "tox>=4.0.0",
+]
+test = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.20.0",
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.8.0",
+    "responses>=0.22.0",
+]
+docs = [
+    "mkdocs>=1.4.0",
+    "mkdocs-material>=8.5.0",
+    "mkdocstrings[python]>=0.19.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/crypto-portfolio-analyzer/crypto-portfolio-analyzer"
+Documentation = "https://crypto-portfolio-analyzer.readthedocs.io"
+Repository = "https://github.com/crypto-portfolio-analyzer/crypto-portfolio-analyzer"
+"Bug Tracker" = "https://github.com/crypto-portfolio-analyzer/crypto-portfolio-analyzer/issues"
+
+[project.scripts]
+crypto-portfolio = "crypto_portfolio_analyzer.cli:main"
+
+[project.entry-points."crypto_portfolio_analyzer.plugins"]
+# Core plugins will be registered here
+core_portfolio = "crypto_portfolio_analyzer.plugins.portfolio:PortfolioPlugin"
+core_config = "crypto_portfolio_analyzer.plugins.config:ConfigPlugin"
+
+[project.entry-points."crypto_portfolio_analyzer.commands"]
+# Commands will be auto-discovered and registered here
+portfolio = "crypto_portfolio_analyzer.commands.portfolio:portfolio_group"
+config = "crypto_portfolio_analyzer.commands.config:config_group"
+
+[tool.setuptools]
+packages = ["crypto_portfolio_analyzer"]
+
+[tool.setuptools.dynamic]
+version = {attr = "crypto_portfolio_analyzer.__version__"}
+
+[tool.setuptools.package-data]
+crypto_portfolio_analyzer = [
+    "config/*.yaml",
+    "schemas/*.json",
+    "templates/*.j2",
+]
+
+[tool.mypy]
+python_version = "3.8"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+exclude = [".git", "__pycache__", "build", "dist", ".venv", ".tox"]
+per-file-ignores = [
+    "__init__.py:F401",
+    "tests/*:S101",
+]
+
+[tool.bandit]
+exclude_dirs = ["tests", "build", "dist"]
+skips = ["B101", "B601"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["crypto_portfolio_analyzer"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+    "asyncio: marks tests as async tests",
+]
+asyncio_mode = "auto"
+
+[tool.coverage.run]
+source = ["crypto_portfolio_analyzer"]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+    "*/migrations/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+show_missing = true
+precision = 2
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py38,py39,py310,py311,lint,type-check,security
+isolated_build = true
+
+[testenv]
+deps = 
+    pytest
+    pytest-asyncio
+    pytest-cov
+    pytest-mock
+    responses
+commands = pytest {posargs}
+
+[testenv:lint]
+deps = 
+    flake8
+    black
+    isort
+commands = 
+    black --check .
+    isort --check-only .
+    flake8 .
+
+[testenv:type-check]
+deps = mypy
+commands = mypy crypto_portfolio_analyzer
+
+[testenv:security]
+deps = bandit
+commands = bandit -r crypto_portfolio_analyzer
+"""
