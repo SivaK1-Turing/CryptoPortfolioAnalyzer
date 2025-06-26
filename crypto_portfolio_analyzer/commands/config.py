@@ -12,7 +12,7 @@ from rich.syntax import Syntax
 import yaml
 import json
 
-from crypto_portfolio_analyzer.cli import ContextAwareGroup, ContextAwareCommand
+from crypto_portfolio_analyzer.core.cli_base import ContextAwareGroup, ContextAwareCommand
 from crypto_portfolio_analyzer.core.context import get_current_context
 
 console = Console()
