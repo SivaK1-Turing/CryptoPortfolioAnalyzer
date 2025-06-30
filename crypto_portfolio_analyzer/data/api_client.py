@@ -362,7 +362,49 @@ class APIClientManager:
                     logger.warning(f"Fallback source {source.value} failed: {e}")
         
         return None
-    
+
+    async def get_multiple_prices(self, symbols: List[str], currency: str = "usd") -> List[CryptocurrencyPrice]:
+        """Get current prices for multiple cryptocurrencies with failover support.
+
+        Args:
+            symbols: List of cryptocurrency symbols
+            currency: Target currency
+
+        Returns:
+            List of CryptocurrencyPrice instances
+        """
+        prices = []
+
+        # Try primary source first
+        if self._primary_source and self._primary_source in self._clients:
+            try:
+                client = self._clients[self._primary_source]
+                primary_prices = await client.get_multiple_prices(symbols, currency)
+                if primary_prices:
+                    return primary_prices
+            except Exception as e:
+                logger.warning(f"Primary source {self._primary_source.value} failed for multiple prices: {e}")
+
+        # Try fallback sources
+        for source in self._fallback_sources:
+            if source in self._clients:
+                try:
+                    client = self._clients[source]
+                    fallback_prices = await client.get_multiple_prices(symbols, currency)
+                    if fallback_prices:
+                        logger.info(f"Used fallback source {source.value} for multiple prices")
+                        return fallback_prices
+                except Exception as e:
+                    logger.warning(f"Fallback source {source.value} failed for multiple prices: {e}")
+
+        # If all sources fail, try individual requests as last resort
+        for symbol in symbols:
+            price = await self.get_current_price(symbol, currency)
+            if price:
+                prices.append(price)
+
+        return prices
+
     async def start_all(self):
         """Start all registered clients."""
         for client in self._clients.values():
