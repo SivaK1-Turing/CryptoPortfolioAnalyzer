@@ -1,0 +1,56 @@
+[2025-07-03T11:25:35.280671+00:00] 🚨 Portfolio Value Threshold Reached
+Severity: INFO
+Time: 2025-07-03 11:25:35 UTC
+
+Portfolio value $67,500.00 has reached the threshold of $60,000.00
+Current Value: 67500.0
+Threshold: 60000.0
+--------------------------------------------------
+[2025-07-03T11:25:35.283409+00:00] 🚨 Portfolio Gained 12.50%
+Severity: WARNING
+Time: 2025-07-03 11:25:35 UTC
+
+Portfolio has gained 12.50% ($7,500.00)
+Current Value: 12.5
+Threshold: 10.0
+--------------------------------------------------
+[2025-07-03T12:07:18.038842+00:00] 🚨 Portfolio Value Threshold Reached
+Severity: INFO
+Time: 2025-07-03 12:07:18 UTC
+
+Portfolio value $67,500.00 has reached the threshold of $60,000.00
+Current Value: 67500.0
+Threshold: 60000.0
+--------------------------------------------------
+[2025-07-03T12:07:18.043011+00:00] 🚨 Portfolio Gained 12.50%
+Severity: WARNING
+Time: 2025-07-03 12:07:18 UTC
+
+Portfolio has gained 12.50% ($7,500.00)
+Current Value: 12.5
+Threshold: 10.0
+--------------------------------------------------
+[2025-07-03T12:09:13.477719+00:00] 🚨 Portfolio Value Threshold Reached
+Severity: INFO
+Time: 2025-07-03 12:09:13 UTC
+
+Portfolio value $67,500.00 has reached the threshold of $60,000.00
+Current Value: 67500.0
+Threshold: 60000.0
+--------------------------------------------------
+[2025-07-03T12:09:13.647905+00:00] 🚨 Portfolio Value Threshold Reached
+Severity: INFO
+Time: 2025-07-03 12:09:13 UTC
+
+Portfolio value $67,500.00 has reached the threshold of $50,000.00
+Current Value: 67500.0
+Threshold: 50000.0
+--------------------------------------------------
+[2025-07-03T12:10:20.373425+00:00] 🚨 Portfolio Value Threshold Reached
+Severity: INFO
+Time: 2025-07-03 12:10:20 UTC
+
+Portfolio value $67,500.00 has reached the threshold of $60,000.00
+Current Value: 67500.0
+Threshold: 60000.0
+--------------------------------------------------
