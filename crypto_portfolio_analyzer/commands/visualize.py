@@ -3,6 +3,7 @@
 import asyncio
 import json
 import webbrowser
+from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
 import click
@@ -371,27 +372,57 @@ async def gallery(ctx, portfolio_file: Optional[str], output_dir: str,
 
 
 @visualize.command()
+@click.option('--host', default='localhost', help='Dashboard host')
+@click.option('--port', type=int, default=8080, help='Dashboard port')
+@click.option('--theme', type=click.Choice(['light', 'dark']), default='light', help='Dashboard theme')
+@click.option('--auto-refresh', is_flag=True, default=True, help='Enable auto-refresh')
+@click.option('--refresh-interval', type=int, default=5, help='Refresh interval in seconds')
 @click.pass_context
-async def dashboard(ctx):
+@async_command
+async def dashboard(ctx, host: str, port: int, theme: str, auto_refresh: bool, refresh_interval: int):
     """Launch interactive web dashboard.
-    
+
     Examples:
         crypto-portfolio visualize dashboard
+        crypto-portfolio visualize dashboard --port 8080 --theme dark
+        crypto-portfolio visualize dashboard --host 0.0.0.0 --port 3000
     """
     app_ctx = get_current_context()
-    
+
     if app_ctx.dry_run:
-        console.print("[yellow]DRY RUN: Would launch web dashboard[/yellow]")
+        console.print(f"[yellow]DRY RUN: Would launch web dashboard on {host}:{port}[/yellow]")
         return
-    
+
     try:
-        console.print("[blue]Starting web dashboard...[/blue]")
-        console.print("[yellow]Dashboard feature coming soon![/yellow]")
-        console.print("For now, use the chart generation commands:")
-        console.print("  • crypto-portfolio visualize portfolio --format html")
-        console.print("  • crypto-portfolio visualize price BTC --format html")
-        console.print("  • crypto-portfolio visualize gallery")
-        
+        from ..visualization.dashboard import WebDashboard, DashboardConfig
+
+        console.print(f"[blue]Starting web dashboard on {host}:{port}...[/blue]")
+
+        # Create dashboard configuration
+        config = DashboardConfig(
+            host=host,
+            port=port,
+            title="Crypto Portfolio Dashboard",
+            theme=theme,
+            auto_refresh=auto_refresh,
+            refresh_interval=refresh_interval
+        )
+
+        # Create and start dashboard
+        dashboard = WebDashboard(config)
+
+        console.print(f"[green]Dashboard starting at http://{host}:{port}[/green]")
+        console.print("[yellow]Press Ctrl+C to stop the dashboard[/yellow]")
+
+        # Open browser
+        if click.confirm("Open dashboard in browser?"):
+            webbrowser.open(f"http://{host}:{port}")
+
+        # Start dashboard (this will block)
+        await dashboard.start()
+
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Dashboard stopped by user[/yellow]")
     except Exception as e:
         console.print(f"[red]Error launching dashboard: {e}[/red]")
         if app_ctx.debug:
@@ -441,3 +472,160 @@ def _create_signals_panel(signals: Dict[str, str]) -> Panel:
         table.add_row(indicator, colored_signal)
     
     return Panel(table, title="Technical Signals", border_style="blue")
+
+
+@visualize.command()
+@click.option('--portfolio-file', '-p', type=click.Path(exists=True),
+              help='JSON file with portfolio holdings')
+@click.option('--type', 'report_type',
+              type=click.Choice(['portfolio_summary', 'performance_analysis', 'risk_assessment', 'allocation_report']),
+              default='portfolio_summary', help='Report type')
+@click.option('--format', 'output_format', type=click.Choice(['html', 'pdf', 'json']),
+              default='html', help='Report format')
+@click.option('--output-file', '-o', type=click.Path(),
+              help='Output file for report')
+@click.option('--theme', type=click.Choice(['light', 'dark']), default='light',
+              help='Report theme')
+@click.option('--include-charts/--no-charts', default=True, help='Include charts in report')
+@click.option('--include-tables/--no-tables', default=True, help='Include tables in report')
+@click.pass_context
+@async_command
+async def report(ctx, portfolio_file: Optional[str], report_type: str, output_format: str,
+                output_file: Optional[str], theme: str, include_charts: bool, include_tables: bool):
+    """Generate comprehensive portfolio reports.
+
+    Examples:
+        crypto-portfolio visualize report --type portfolio_summary --format html
+        crypto-portfolio visualize report --type performance_analysis --format pdf
+        crypto-portfolio visualize report --format json --output-file report.json
+    """
+    app_ctx = get_current_context()
+
+    if app_ctx.dry_run:
+        console.print(f"[yellow]DRY RUN: Would generate {report_type} report in {output_format} format[/yellow]")
+        return
+
+    try:
+        from ..visualization.reports import ReportGenerator, ReportConfig, ReportType, ReportFormat
+
+        # Load portfolio data
+        portfolio_data = _load_portfolio_data(portfolio_file)
+        if not portfolio_data:
+            console.print("[red]No portfolio data provided.[/red]")
+            return
+
+        with Progress(
+            SpinnerColumn(),
+            TextColumn("[progress.description]{task.description}"),
+            console=console
+        ) as progress:
+            task = progress.add_task("Generating report...", total=None)
+
+            # Create portfolio snapshots
+            analyzer = PortfolioAnalyzer()
+            current_snapshot = await analyzer.create_portfolio_snapshot(portfolio_data['holdings'])
+
+            # Create report configuration
+            config = ReportConfig(
+                report_type=ReportType(report_type),
+                format=ReportFormat(output_format),
+                title=f"{report_type.replace('_', ' ').title()} Report",
+                include_charts=include_charts,
+                include_tables=include_tables,
+                theme=theme,
+                output_path=output_file
+            )
+
+            progress.update(task, description="Generating charts and tables...")
+
+            # Generate report
+            generator = ReportGenerator()
+            report_path = generator.generate_report(config, [current_snapshot])
+
+            progress.update(task, completed=True)
+
+            console.print(f"[green]Report generated: {report_path}[/green]")
+
+            # Open report if HTML
+            if output_format == 'html' and click.confirm("Open report in browser?"):
+                webbrowser.open(f"file://{Path(report_path).absolute()}")
+
+    except Exception as e:
+        console.print(f"[red]Error generating report: {e}[/red]")
+        if app_ctx.debug:
+            console.print_exception()
+
+
+@visualize.command()
+@click.option('--portfolio-file', '-p', type=click.Path(exists=True),
+              help='JSON file with portfolio holdings')
+@click.option('--format', 'export_format', type=click.Choice(['csv', 'json', 'excel']),
+              default='csv', help='Export format')
+@click.option('--output-file', '-o', type=click.Path(),
+              help='Output file for export')
+@click.option('--include-metadata/--no-metadata', default=True, help='Include metadata in export')
+@click.option('--decimal-places', type=int, default=6, help='Number of decimal places')
+@click.pass_context
+@async_command
+async def export(ctx, portfolio_file: Optional[str], export_format: str, output_file: Optional[str],
+                include_metadata: bool, decimal_places: int):
+    """Export portfolio data to various formats.
+
+    Examples:
+        crypto-portfolio visualize export --format csv
+        crypto-portfolio visualize export --format excel --output-file portfolio.xlsx
+        crypto-portfolio visualize export --format json --include-metadata
+    """
+    app_ctx = get_current_context()
+
+    if app_ctx.dry_run:
+        console.print(f"[yellow]DRY RUN: Would export portfolio data in {export_format} format[/yellow]")
+        return
+
+    try:
+        from ..visualization.export import DataExporter, ExportConfig, ExportFormat
+
+        # Load portfolio data
+        portfolio_data = _load_portfolio_data(portfolio_file)
+        if not portfolio_data:
+            console.print("[red]No portfolio data provided.[/red]")
+            return
+
+        with Progress(
+            SpinnerColumn(),
+            TextColumn("[progress.description]{task.description}"),
+            console=console
+        ) as progress:
+            task = progress.add_task("Exporting data...", total=None)
+
+            # Create portfolio snapshots
+            analyzer = PortfolioAnalyzer()
+            current_snapshot = await analyzer.create_portfolio_snapshot(portfolio_data['holdings'])
+
+            # Create export configuration
+            config = ExportConfig(
+                format=ExportFormat(export_format),
+                include_metadata=include_metadata,
+                decimal_places=decimal_places,
+                output_path=output_file
+            )
+
+            # Generate filename if not provided
+            if not output_file:
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                output_file = f"portfolio_export_{timestamp}.{export_format}"
+
+            progress.update(task, description="Processing portfolio data...")
+
+            # Export data
+            exporter = DataExporter()
+            export_path = exporter.export_data([current_snapshot], config, output_file)
+
+            progress.update(task, completed=True)
+
+            console.print(f"[green]Data exported: {export_path}[/green]")
+
+    except Exception as e:
+        console.print(f"[red]Error exporting data: {e}[/red]")
+        if app_ctx.debug:
+            console.print_exception()

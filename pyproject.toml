@@ -40,6 +40,13 @@ dependencies = [
     "aiofiles>=0.8.0",
     "rich>=12.0.0",
     "ipython>=8.0.0",
+    # Feature 6 visualization dependencies
+    "plotly>=5.15.0",
+    "dash>=2.10.0",
+    "kaleido>=0.2.1",  # For static image export
+    "jinja2>=3.1.0",  # For report templates
+    "weasyprint>=59.0",  # For PDF generation
+    "openpyxl>=3.1.0",  # For Excel export
 ]
 
 [project.optional-dependencies]
