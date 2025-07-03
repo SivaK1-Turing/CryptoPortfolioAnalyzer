@@ -274,11 +274,13 @@ def register_commands():
     from crypto_portfolio_analyzer.commands.data import data
     from crypto_portfolio_analyzer.commands.analytics import analytics
     from crypto_portfolio_analyzer.commands.visualize import visualize
+    from crypto_portfolio_analyzer.commands.stream import stream
 
     main.add_command(portfolio_group)
     main.add_command(config_group)
     main.add_command(data)
     main.add_command(analytics)
+    main.add_command(stream)
     main.add_command(visualize)
 
 # Register commands when module is imported
