@@ -1,0 +1,7012 @@
+{
+  "exported_at": "2025-07-03T12:36:09.074305+00:00",
+  "format_version": "1.0",
+  "data": [
+    {
+      "timestamp": "2025-07-03T12:36:09.063866+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.063942+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.063957+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.063970+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.063982+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.063995+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064008+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064020+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064032+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064044+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064056+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064086+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064098+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064110+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064122+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064134+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064146+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064159+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064171+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064182+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064194+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064206+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064218+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064230+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064241+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064251+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064261+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064270+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064324+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064362+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064372+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064381+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064391+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064402+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064411+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064421+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064432+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064442+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064453+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064465+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064476+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064487+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064497+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064507+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064515+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064526+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064534+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064543+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064552+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064562+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064571+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064582+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064592+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064603+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064612+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064623+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064633+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064642+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064654+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064665+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064675+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064684+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064693+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064702+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064711+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064723+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064732+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064742+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064758+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064768+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064778+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064788+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064798+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064808+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064817+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064827+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064836+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064848+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064859+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064868+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064878+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064887+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064897+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064907+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064916+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064926+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064937+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064951+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064962+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064970+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064976+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064982+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064988+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.064995+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065001+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065007+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065013+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065018+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065024+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065030+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065035+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065041+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065047+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065052+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065058+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065066+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065077+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065084+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065090+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065097+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065102+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065108+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065114+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065120+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065126+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065131+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065137+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065143+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065149+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065159+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065165+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065171+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065177+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065182+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065188+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065193+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065199+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065205+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065211+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065217+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065223+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065229+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065234+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065240+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065246+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065253+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065260+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065266+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065272+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065279+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065284+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065290+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065297+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065307+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065315+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065323+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065332+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065341+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065351+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065362+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065372+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065384+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065390+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065397+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065403+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065412+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065421+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065432+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065443+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065454+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065460+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065466+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065472+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065478+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065484+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065490+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065495+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065501+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065507+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065512+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065518+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065526+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065533+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065540+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065547+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065553+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065559+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065565+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065571+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065576+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065582+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065588+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065594+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065601+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065608+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065614+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065621+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065627+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065633+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065640+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065646+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065653+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065659+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065665+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065671+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065677+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065682+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065688+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065694+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065702+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065708+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065715+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065721+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065726+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065735+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065741+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065746+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065752+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065758+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065764+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065770+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065775+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065781+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065790+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065801+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065811+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065822+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065833+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065844+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065855+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065866+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065877+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065890+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065901+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065912+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065924+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065935+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065945+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065957+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065969+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065980+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.065992+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066004+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066016+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066028+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066038+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066046+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066056+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066066+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066090+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066100+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066110+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066121+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066132+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066143+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066154+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066167+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066179+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066190+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066202+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066214+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066225+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066236+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066250+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066262+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066273+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066284+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066295+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066305+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066318+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066332+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066347+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066362+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066374+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066389+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066404+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066419+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066433+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066446+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066461+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066470+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066479+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066490+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066503+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066512+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066522+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066531+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066542+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066555+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066566+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066578+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066590+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066602+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066613+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066623+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066631+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066640+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066651+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066660+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066668+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066677+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066686+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066696+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066707+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066717+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066725+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066734+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066745+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066755+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066764+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066773+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066783+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066792+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066802+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066811+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066821+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066831+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066840+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066849+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066861+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066873+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066885+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066895+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066904+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066913+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066919+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066925+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066931+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066936+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066942+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066948+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066953+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066959+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066964+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066972+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066978+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066984+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066990+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.066996+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067001+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067007+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067013+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067018+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067024+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067034+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067043+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067052+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067061+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067071+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067080+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067090+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067098+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067104+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067110+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067115+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067121+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067127+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067132+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067138+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067143+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067149+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067154+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067160+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067167+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067173+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067178+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067184+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067189+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067194+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067200+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067205+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067211+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067216+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067222+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067228+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067233+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067239+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067244+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067250+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067255+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067261+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067266+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067272+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067279+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067287+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067293+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067301+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067307+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067313+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067319+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067325+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067330+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067336+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067342+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067348+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067353+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067359+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067365+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067370+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067376+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067381+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067387+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067393+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067399+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067404+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067410+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067416+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067421+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067427+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067433+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067438+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067445+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067451+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067457+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067462+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067469+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067476+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067481+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067487+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067497+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067506+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067516+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067525+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067535+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067546+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067554+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067560+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067566+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067572+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067577+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067583+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067588+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067594+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067600+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067607+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067613+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067621+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067627+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067632+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067638+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067644+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067650+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067655+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067661+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067667+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067672+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067678+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067685+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067691+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067697+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067702+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067708+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067713+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067719+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067724+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067730+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067735+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067741+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067746+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067752+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067758+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067764+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067769+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067775+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067781+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067786+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067792+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067799+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067805+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067810+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067816+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067822+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067827+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067833+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067839+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067844+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067850+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067856+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067863+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067869+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067875+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067881+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067887+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067892+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067900+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067906+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067912+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067919+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067989+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.067997+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068007+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068017+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068026+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068034+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068043+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068052+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068061+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068071+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068089+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068098+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068107+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068115+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068124+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068132+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068141+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068152+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068160+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068170+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068179+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068189+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068200+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068210+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068219+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068229+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068238+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068247+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068255+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068263+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068273+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068282+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068291+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068300+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068309+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068320+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068331+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068342+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068353+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068364+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068375+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068386+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068397+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068411+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068425+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068436+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068447+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068458+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068470+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068481+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068494+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068505+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068516+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068526+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068537+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068546+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068556+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068565+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068575+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068584+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068593+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068602+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068611+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068621+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068632+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068644+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068655+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068665+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068675+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068686+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068697+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068709+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068720+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068730+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068739+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068749+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068758+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068768+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068778+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068788+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068797+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068806+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068817+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068827+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068836+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068845+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068857+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068867+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068876+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068885+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068895+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068904+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068913+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068923+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.068934+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069111+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069125+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069137+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069150+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069163+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069175+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069187+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069209+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069223+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069236+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069248+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069260+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069272+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069284+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069296+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069308+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069319+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069332+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069344+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069356+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069372+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069386+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069401+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069414+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069426+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069438+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069450+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069463+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069475+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069487+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069499+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069511+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069523+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069535+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069547+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069559+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069571+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069583+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069595+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069607+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069619+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069631+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069642+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069654+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069667+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069678+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069690+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069703+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069715+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069726+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069738+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069754+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069766+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069778+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069793+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069806+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069818+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069832+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069845+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069857+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069868+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069880+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069892+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069904+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069916+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069928+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069940+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069952+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069963+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069975+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069987+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.069999+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070011+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070023+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070035+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070047+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070059+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070071+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070083+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070095+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070107+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070119+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070131+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070143+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070155+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070211+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070227+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070238+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070248+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070257+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070263+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070269+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070275+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070281+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070287+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070293+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070299+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070305+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070310+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070317+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070326+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070332+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070338+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070343+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070349+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070355+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070361+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070366+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070374+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070380+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070386+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070392+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070398+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070404+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070411+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070418+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070423+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070429+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070437+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070444+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070450+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070456+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070464+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070473+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070482+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070489+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070497+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070505+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070513+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070520+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070528+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070539+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070549+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070557+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070563+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070569+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070575+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070581+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070586+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070592+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070598+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070604+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070609+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070615+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070621+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070627+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070632+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070638+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070644+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070651+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070658+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070667+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070677+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070687+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070696+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070707+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070715+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070725+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070735+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070746+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070756+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070765+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070774+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070783+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070792+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070801+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070811+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070821+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070831+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070841+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070852+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070862+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070872+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070882+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070932+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070943+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070951+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070961+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070972+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070981+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.070991+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071002+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071011+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071020+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071029+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071038+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071049+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071056+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071065+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071071+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071081+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071090+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071100+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071164+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071174+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071184+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071194+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071203+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071214+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071221+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071226+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071235+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071244+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071255+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071264+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071273+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071283+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071293+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071303+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071313+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071323+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071340+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071347+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071356+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071362+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071368+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071374+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071380+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071387+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071397+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071407+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071418+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071428+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071437+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071446+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071456+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071465+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071476+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071486+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071495+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071504+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071514+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071525+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071534+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071544+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071556+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071567+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071579+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071591+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071603+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071614+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071626+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071640+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071652+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071664+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071677+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071689+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071701+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071713+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071725+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071737+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071748+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071759+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071769+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071781+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071793+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071801+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071810+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071819+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071827+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071835+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071846+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071855+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071864+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071872+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071881+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071889+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071898+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071907+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071915+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071924+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071933+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071942+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071952+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071963+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071972+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071982+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.071992+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072000+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072010+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072019+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072027+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072037+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072046+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072056+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072065+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072074+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072083+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072096+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072105+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072114+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072122+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072130+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072138+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072146+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072154+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072162+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072172+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072182+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072194+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072207+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072218+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072230+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072241+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072253+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072264+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072282+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072295+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072311+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072324+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072337+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072352+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072366+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072380+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072394+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072407+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072418+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072431+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072440+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072448+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072457+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072466+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072476+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072486+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072497+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072507+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072516+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072524+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072533+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072542+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072553+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072563+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072572+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072581+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072590+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072598+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072608+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072619+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072628+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072637+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072647+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072656+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072665+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072673+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072681+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072690+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072702+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072716+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072727+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072739+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072749+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072761+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072772+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072783+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072793+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072803+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072811+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072819+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072827+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072835+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072844+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072855+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072866+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072897+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072908+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072916+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072924+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072933+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072941+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072952+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072962+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072970+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072982+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.072991+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073000+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073009+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073017+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073027+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073036+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073046+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073055+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073064+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073073+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073082+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073091+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073100+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073109+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073118+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073126+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073135+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073145+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073154+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073164+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073174+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073183+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073192+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073203+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073213+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073299+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073392+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073406+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073416+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073426+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073608+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073621+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073647+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073658+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073667+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073676+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073686+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073697+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073707+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073719+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073728+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073736+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073763+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073772+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073782+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073791+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073802+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073810+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073818+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073827+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073835+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073844+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073853+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.073862+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    }
+  ],
+  "metadata": {
+    "total_records": 1000,
+    "decimal_places": 6,
+    "date_format": "%Y-%m-%d %H:%M:%S"
+  },
+  "data_type": "generic"
+}

@@ -1,0 +1,33 @@
+{
+  "exported_at": "2025-07-03T12:36:09.046764+00:00",
+  "format_version": "1.0",
+  "data": [
+    {
+      "timestamp": "2025-07-03T12:36:09.046578+00:00",
+      "symbol": "BTC",
+      "price": 52000.0,
+      "quantity": 1.5,
+      "value": 78000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.046588+00:00",
+      "symbol": "ETH",
+      "price": 3800.0,
+      "quantity": 10.0,
+      "value": 38000.0
+    },
+    {
+      "timestamp": "2025-07-03T12:36:09.046592+00:00",
+      "symbol": "SOL",
+      "price": 110.0,
+      "quantity": 50.0,
+      "value": 5500.0
+    }
+  ],
+  "metadata": {
+    "total_records": 3,
+    "decimal_places": 6,
+    "date_format": "%Y-%m-%d %H:%M:%S"
+  },
+  "data_type": "generic"
+}

@@ -48,7 +48,24 @@ class StreamEvent:
     
     def to_json(self) -> str:
         """Convert to JSON string."""
-        return json.dumps(self.to_dict())
+        return json.dumps(self.to_dict(), default=str)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'StreamEvent':
+        """Create event from dictionary."""
+        return cls(
+            event_type=EventType(data['event_type']),
+            data=data['data'],
+            timestamp=datetime.fromisoformat(data['timestamp'].replace('Z', '+00:00')),
+            source=data.get('source'),
+            event_id=data.get('event_id'),
+            correlation_id=data.get('correlation_id')
+        )
+
+    @classmethod
+    def from_json(cls, json_str: str) -> 'StreamEvent':
+        """Create event from JSON string."""
+        return cls.from_dict(json.loads(json_str))
 
 
 class EventHandler(ABC):
@@ -414,3 +431,276 @@ class DatabaseEventHandler(EventHandler):
     def get_supported_event_types(self) -> Set[EventType]:
         """Return supported event types."""
         return self.supported_events
+
+
+class WebSocketEventBroadcaster:
+    """WebSocket-based event broadcaster for real-time updates."""
+
+    def __init__(self, host: str = "localhost", port: int = 8765):
+        """Initialize WebSocket broadcaster.
+
+        Args:
+            host: WebSocket server host
+            port: WebSocket server port
+        """
+        self.host = host
+        self.port = port
+        self.server = None
+        self.clients: Set[Any] = set()  # WebSocket connections
+        self.running = False
+
+    async def start(self):
+        """Start WebSocket server."""
+        try:
+            import websockets
+
+            self.server = await websockets.serve(
+                self._handle_client,
+                self.host,
+                self.port
+            )
+            self.running = True
+            logger.info(f"WebSocket event broadcaster started on {self.host}:{self.port}")
+
+        except ImportError:
+            logger.error("websockets library not installed. Install with: pip install websockets")
+            raise
+        except Exception as e:
+            logger.error(f"Failed to start WebSocket broadcaster: {e}")
+            raise
+
+    async def stop(self):
+        """Stop WebSocket server."""
+        if self.server:
+            self.server.close()
+            await self.server.wait_closed()
+            self.running = False
+            logger.info("WebSocket event broadcaster stopped")
+
+    async def broadcast_event(self, event: StreamEvent):
+        """Broadcast event to all connected clients."""
+        if not self.clients:
+            return
+
+        message = event.to_json()
+        disconnected_clients = set()
+
+        for client in self.clients:
+            try:
+                await client.send(message)
+            except Exception as e:
+                logger.warning(f"Failed to send to client: {e}")
+                disconnected_clients.add(client)
+
+        # Remove disconnected clients
+        self.clients -= disconnected_clients
+
+        if disconnected_clients:
+            logger.info(f"Removed {len(disconnected_clients)} disconnected clients")
+
+    async def _handle_client(self, websocket, path):
+        """Handle new WebSocket client connection."""
+        self.clients.add(websocket)
+        client_addr = websocket.remote_address
+        logger.info(f"New WebSocket client connected: {client_addr}")
+
+        try:
+            # Send welcome message
+            welcome_event = StreamEvent(
+                event_type=EventType.CONNECTION_STATUS,
+                data={"status": "connected", "message": "Welcome to real-time portfolio updates"},
+                source="websocket_broadcaster"
+            )
+            await websocket.send(welcome_event.to_json())
+
+            # Keep connection alive
+            async for message in websocket:
+                # Handle client messages (ping/pong, subscriptions, etc.)
+                try:
+                    data = json.loads(message)
+                    if data.get("type") == "ping":
+                        pong_event = StreamEvent(
+                            event_type=EventType.CONNECTION_STATUS,
+                            data={"type": "pong"},
+                            source="websocket_broadcaster"
+                        )
+                        await websocket.send(pong_event.to_json())
+                except json.JSONDecodeError:
+                    logger.warning(f"Invalid JSON from client {client_addr}: {message}")
+
+        except Exception as e:
+            logger.info(f"Client {client_addr} disconnected: {e}")
+        finally:
+            self.clients.discard(websocket)
+
+    def get_client_count(self) -> int:
+        """Get number of connected clients."""
+        return len(self.clients)
+
+
+class MessageQueue:
+    """Simple in-memory message queue for event distribution."""
+
+    def __init__(self, max_size: int = 10000):
+        """Initialize message queue.
+
+        Args:
+            max_size: Maximum queue size
+        """
+        self.queue: asyncio.Queue = asyncio.Queue(maxsize=max_size)
+        self.consumers: Set[Callable[[StreamEvent], None]] = set()
+        self.running = False
+        self._consumer_task: Optional[asyncio.Task] = None
+
+    async def start(self):
+        """Start message queue consumer."""
+        if self.running:
+            return
+
+        self.running = True
+        self._consumer_task = asyncio.create_task(self._consume_messages())
+        logger.info("Message queue started")
+
+    async def stop(self):
+        """Stop message queue consumer."""
+        if not self.running:
+            return
+
+        self.running = False
+
+        if self._consumer_task:
+            self._consumer_task.cancel()
+            try:
+                await self._consumer_task
+            except asyncio.CancelledError:
+                pass
+
+        logger.info("Message queue stopped")
+
+    async def publish(self, event: StreamEvent):
+        """Publish event to queue."""
+        try:
+            await self.queue.put(event)
+        except asyncio.QueueFull:
+            logger.warning("Message queue is full, dropping event")
+
+    def add_consumer(self, consumer: Callable[[StreamEvent], None]):
+        """Add event consumer."""
+        self.consumers.add(consumer)
+
+    def remove_consumer(self, consumer: Callable[[StreamEvent], None]):
+        """Remove event consumer."""
+        self.consumers.discard(consumer)
+
+    async def _consume_messages(self):
+        """Consume messages from queue."""
+        while self.running:
+            try:
+                event = await asyncio.wait_for(self.queue.get(), timeout=1.0)
+
+                # Distribute to all consumers
+                for consumer in self.consumers:
+                    try:
+                        if asyncio.iscoroutinefunction(consumer):
+                            asyncio.create_task(consumer(event))
+                        else:
+                            consumer(event)
+                    except Exception as e:
+                        logger.error(f"Error in message queue consumer: {e}")
+
+                self.queue.task_done()
+
+            except asyncio.TimeoutError:
+                continue  # Check if still running
+            except asyncio.CancelledError:
+                break
+            except Exception as e:
+                logger.error(f"Error consuming message: {e}")
+
+    def get_queue_size(self) -> int:
+        """Get current queue size."""
+        return self.queue.qsize()
+
+
+class EnhancedStreamEventBus(StreamEventBus):
+    """Enhanced event bus with WebSocket broadcasting and message queues."""
+
+    def __init__(self):
+        """Initialize enhanced event bus."""
+        super().__init__()
+        self.websocket_broadcaster: Optional[WebSocketEventBroadcaster] = None
+        self.message_queue: Optional[MessageQueue] = None
+        self.enable_websocket = False
+        self.enable_message_queue = False
+
+    async def start_websocket_broadcaster(self, host: str = "localhost", port: int = 8765):
+        """Start WebSocket broadcaster.
+
+        Args:
+            host: WebSocket server host
+            port: WebSocket server port
+        """
+        self.websocket_broadcaster = WebSocketEventBroadcaster(host, port)
+        await self.websocket_broadcaster.start()
+        self.enable_websocket = True
+
+        # Subscribe to all events for broadcasting
+        self.subscribe(
+            "websocket_broadcaster",
+            self._broadcast_to_websocket,
+            event_types=set(EventType)
+        )
+
+    async def start_message_queue(self, max_size: int = 10000):
+        """Start message queue.
+
+        Args:
+            max_size: Maximum queue size
+        """
+        self.message_queue = MessageQueue(max_size)
+        await self.message_queue.start()
+        self.enable_message_queue = True
+
+        # Subscribe to all events for queuing
+        self.subscribe(
+            "message_queue",
+            self._publish_to_queue,
+            event_types=set(EventType)
+        )
+
+    async def stop(self):
+        """Stop enhanced event bus."""
+        if self.websocket_broadcaster:
+            await self.websocket_broadcaster.stop()
+
+        if self.message_queue:
+            await self.message_queue.stop()
+
+        await super().stop()
+
+    async def _broadcast_to_websocket(self, event: StreamEvent):
+        """Broadcast event to WebSocket clients."""
+        if self.websocket_broadcaster and self.enable_websocket:
+            await self.websocket_broadcaster.broadcast_event(event)
+
+    async def _publish_to_queue(self, event: StreamEvent):
+        """Publish event to message queue."""
+        if self.message_queue and self.enable_message_queue:
+            await self.message_queue.publish(event)
+
+    def get_websocket_client_count(self) -> int:
+        """Get number of WebSocket clients."""
+        if self.websocket_broadcaster:
+            return self.websocket_broadcaster.get_client_count()
+        return 0
+
+    def get_message_queue_size(self) -> int:
+        """Get message queue size."""
+        if self.message_queue:
+            return self.message_queue.get_queue_size()
+        return 0
+
+    def add_queue_consumer(self, consumer: Callable[[StreamEvent], None]):
+        """Add message queue consumer."""
+        if self.message_queue:
+            self.message_queue.add_consumer(consumer)
