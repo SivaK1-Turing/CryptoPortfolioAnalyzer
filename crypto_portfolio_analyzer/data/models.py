@@ -13,7 +13,9 @@ class DataSource(Enum):
     COINGECKO = "coingecko"
     COINMARKETCAP = "coinmarketcap"
     BINANCE = "binance"
+    COINBASE = "coinbase"
     MANUAL = "manual"
+    MOCK = "mock"
 
 
 class PriceChangeInterval(Enum):
