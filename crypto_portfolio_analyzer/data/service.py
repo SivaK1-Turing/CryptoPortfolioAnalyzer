@@ -367,11 +367,12 @@ async def get_data_service() -> DataService:
         from .database import DatabaseManager
         from .cache import CacheManager
         from .api_client import APIClientManager
-        
+        from .clients.coingecko import CoinGeckoClient
+
         db_manager = DatabaseManager()
         cache_manager = CacheManager()
         client_manager = APIClientManager()
-        
+
         # Register CoinGecko client as primary
         coingecko_client = CoinGeckoClient()
         client_manager.register_client(coingecko_client, is_primary=True)
