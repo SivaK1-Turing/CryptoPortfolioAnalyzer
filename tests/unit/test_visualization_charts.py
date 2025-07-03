@@ -8,7 +8,10 @@ from unittest.mock import Mock, patch
 
 import plotly.graph_objects as go
 
-from crypto_portfolio_analyzer.visualization.charts import ChartGenerator
+from crypto_portfolio_analyzer.visualization.charts import (
+    ChartGenerator, ChartType, ChartConfig, BaseChart, PortfolioChart,
+    AllocationChart, PriceChart, PerformanceChart, ChartManager
+)
 from crypto_portfolio_analyzer.analytics.models import PortfolioSnapshot, PortfolioHolding
 from crypto_portfolio_analyzer.data.models import HistoricalPrice, DataSource
 
@@ -395,3 +398,162 @@ class TestChartGeneratorEdgeCases:
         
         assert isinstance(fig, go.Figure)
         # Should handle extreme values gracefully
+
+
+class TestChartConfig:
+    """Test ChartConfig class."""
+
+    def test_chart_config_creation(self):
+        """Test creating chart configuration."""
+        config = ChartConfig(
+            chart_type=ChartType.LINE,
+            title="Test Chart",
+            width=800,
+            height=600
+        )
+
+        assert config.chart_type == ChartType.LINE
+        assert config.title == "Test Chart"
+        assert config.width == 800
+        assert config.height == 600
+        assert config.theme == "plotly_white"
+        assert config.show_legend is True
+
+
+class TestBaseChart:
+    """Test BaseChart class."""
+
+    def test_base_chart_creation(self):
+        """Test creating base chart."""
+        config = ChartConfig(chart_type=ChartType.LINE)
+        chart = BaseChart(config)
+
+        assert chart.config == config
+        assert chart.figure is None
+        assert chart._data is None
+
+    def test_create_not_implemented(self):
+        """Test that create method raises NotImplementedError."""
+        config = ChartConfig(chart_type=ChartType.LINE)
+        chart = BaseChart(config)
+
+        with pytest.raises(NotImplementedError):
+            chart.create({})
+
+    def test_export_without_figure(self):
+        """Test export without creating figure first."""
+        config = ChartConfig(chart_type=ChartType.LINE)
+        chart = BaseChart(config)
+
+        with pytest.raises(ValueError, match="Chart must be created before export"):
+            chart.export("test.html")
+
+
+class TestChartManager:
+    """Test ChartManager class."""
+
+    def test_chart_manager_creation(self):
+        """Test creating chart manager."""
+        manager = ChartManager()
+
+        assert manager.default_colors is not None
+        assert manager.default_layout is not None
+        assert manager.chart_registry == {}
+
+    def test_register_chart(self):
+        """Test registering chart class."""
+        manager = ChartManager()
+
+        manager.register_chart('test_chart', PortfolioChart)
+
+        assert 'test_chart' in manager.chart_registry
+        assert manager.chart_registry['test_chart'] == PortfolioChart
+
+    def test_create_chart(self):
+        """Test creating chart through manager."""
+        manager = ChartManager()
+        manager.register_chart('portfolio', PortfolioChart)
+
+        config = ChartConfig(chart_type=ChartType.LINE)
+        chart = manager.create_chart('portfolio', config, [])
+
+        assert isinstance(chart, PortfolioChart)
+        assert chart.config == config
+
+    def test_create_unknown_chart(self):
+        """Test creating unknown chart type."""
+        manager = ChartManager()
+
+        config = ChartConfig(chart_type=ChartType.LINE)
+
+        with pytest.raises(ValueError, match="Unknown chart type"):
+            manager.create_chart('unknown', config, [])
+
+
+class TestNewChartClasses:
+    """Test new chart classes."""
+
+    def test_portfolio_chart_with_data(self, sample_historical_snapshots):
+        """Test PortfolioChart with real data."""
+        config = ChartConfig(chart_type=ChartType.LINE, title="Portfolio Performance")
+        chart = PortfolioChart(config)
+
+        figure = chart.create(sample_historical_snapshots)
+
+        assert figure is not None
+        assert chart.figure == figure
+        assert len(figure.data) >= 2  # Should have multiple traces
+
+    def test_allocation_chart_with_data(self, sample_portfolio_snapshot):
+        """Test AllocationChart with real data."""
+        config = ChartConfig(chart_type=ChartType.PIE, title="Portfolio Allocation")
+        chart = AllocationChart(config)
+
+        figure = chart.create(sample_portfolio_snapshot)
+
+        assert figure is not None
+        assert chart.figure == figure
+        assert len(figure.data) == 1  # Pie chart
+        assert len(figure.data[0].labels) > 0  # Should have labels
+
+    def test_price_chart_with_data(self, sample_historical_prices):
+        """Test PriceChart with real data."""
+        config = ChartConfig(chart_type=ChartType.CANDLESTICK, title="BTC Price")
+        chart = PriceChart(config)
+
+        data = {
+            'historical_prices': sample_historical_prices,
+            'symbol': 'BTC',
+            'indicators': {}
+        }
+
+        figure = chart.create(data)
+
+        assert figure is not None
+        assert chart.figure == figure
+        assert len(figure.data) >= 1  # Should have at least candlestick trace
+
+    def test_performance_chart_with_data(self):
+        """Test PerformanceChart with sample data."""
+        config = ChartConfig(chart_type=ChartType.LINE, title="Performance Comparison")
+        chart = PerformanceChart(config)
+
+        base_time = datetime.now(timezone.utc)
+        performance_data = {
+            'BTC': [
+                (base_time, 0.0),
+                (base_time + timedelta(days=1), 0.05),
+                (base_time + timedelta(days=2), 0.10)
+            ],
+            'ETH': [
+                (base_time, 0.0),
+                (base_time + timedelta(days=1), 0.03),
+                (base_time + timedelta(days=2), 0.08)
+            ]
+        }
+
+        figure = chart.create(performance_data)
+
+        assert figure is not None
+        assert chart.figure == figure
+        assert len(figure.data) == 2  # BTC and ETH lines
