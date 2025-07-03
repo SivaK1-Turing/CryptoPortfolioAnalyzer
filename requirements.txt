@@ -15,6 +15,18 @@ numpy>=1.21.0
 pandas>=1.3.0
 scipy>=1.7.0
 
+# Visualization and web framework
+plotly>=5.0.0
+fastapi>=0.68.0
+uvicorn>=0.15.0
+websockets>=10.0
+jinja2>=3.0.0
+python-multipart>=0.0.5
+
+# Terminal visualization
+textual>=0.1.0
+rich>=12.0.0
+
 # Configuration and secrets
 PyYAML
 python-dotenv
