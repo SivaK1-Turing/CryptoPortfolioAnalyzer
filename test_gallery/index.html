@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Chart Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        .chart-item {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .chart-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .chart-image {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .timestamp {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Portfolio Chart Gallery</h1>
+        <p>Generated portfolio analytics charts</p>
+    </div>
+    
+    <div class="gallery">
+
+        <div class="chart-item">
+            <div class="chart-title">Portfolio Allocation</div>
+            <img src="Portfolio_Allocation.png" alt="Portfolio Allocation" class="chart-image">
+        </div>
+
+        <div class="chart-item">
+            <div class="chart-title">Portfolio Performance</div>
+            <img src="Portfolio_Performance.png" alt="Portfolio Performance" class="chart-image">
+        </div>
+
+    </div>
+    
+    <div class="timestamp">
+        Generated on 2025-07-01 13:45:06
+    </div>
+</body>
+</html>
