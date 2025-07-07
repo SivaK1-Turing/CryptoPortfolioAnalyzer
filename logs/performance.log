@@ -1,0 +1,6 @@
+2025-07-07 19:17:33,184 performance INFO endpoint='/api/portfolio' method='GET' duration_ms=125.5 status_code=200 timestamp='2025-07-07T13:47:33.184118Z' event='Request timing' logger='performance' level='info'
+2025-07-07 19:17:33,185 performance INFO query_type='SELECT' table='portfolios' duration_ms=45.2 timestamp='2025-07-07T13:47:33.185365Z' event='Database query' logger='performance' level='info'
+2025-07-07 19:28:28,625 performance INFO endpoint='/api/portfolio' method='GET' duration_ms=125.5 status_code=200 timestamp='2025-07-07T13:58:28.625190Z' event='Request timing' logger='performance' level='info'
+2025-07-07 19:28:28,625 performance INFO query_type='SELECT' table='portfolios' duration_ms=45.2 timestamp='2025-07-07T13:58:28.625604Z' event='Database query' logger='performance' level='info'
+2025-07-07 19:30:31,444 performance INFO endpoint='/api/portfolio' method='GET' duration_ms=125.5 status_code=200 timestamp='2025-07-07T14:00:31.444320Z' event='Request timing' logger='performance' level='info'
+2025-07-07 19:30:31,444 performance INFO query_type='SELECT' table='portfolios' duration_ms=45.2 timestamp='2025-07-07T14:00:31.444774Z' event='Database query' logger='performance' level='info'

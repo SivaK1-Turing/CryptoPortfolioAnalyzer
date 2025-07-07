@@ -1,0 +1,6 @@
+2025-07-07 19:17:33,179 audit INFO user_id='test-user' action='portfolio_view' resource='portfolio-123' timestamp='2025-07-07T13:47:33.179291Z' event='User action' logger='audit' level='info'
+2025-07-07 19:17:33,182 audit INFO event_type='startup' component='application' timestamp='2025-07-07T13:47:33.182364Z' event='System event' logger='audit' level='info'
+2025-07-07 19:28:28,624 audit INFO user_id='test-user' action='portfolio_view' resource='portfolio-123' timestamp='2025-07-07T13:58:28.624225Z' event='User action' logger='audit' level='info'
+2025-07-07 19:28:28,624 audit INFO event_type='startup' component='application' timestamp='2025-07-07T13:58:28.624706Z' event='System event' logger='audit' level='info'
+2025-07-07 19:30:31,439 audit INFO user_id='test-user' action='portfolio_view' resource='portfolio-123' timestamp='2025-07-07T14:00:31.439828Z' event='User action' logger='audit' level='info'
+2025-07-07 19:30:31,442 audit INFO event_type='startup' component='application' timestamp='2025-07-07T14:00:31.442730Z' event='System event' logger='audit' level='info'
