@@ -2,424 +2,88 @@
 
 A sophisticated Python CLI tool for cryptocurrency portfolio management with real-time price fetching, analytics, and comprehensive reporting capabilities.
 
-[![CI/CD Pipeline](https://github.com/crypto-portfolio-analyzer/crypto-portfolio-analyzer/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/crypto-portfolio-analyzer/crypto-portfolio-analyzer/actions)
-[![codecov](https://codecov.io/gh/crypto-portfolio-analyzer/crypto-portfolio-analyzer/branch/main/graph/badge.svg)](https://codecov.io/gh/crypto-portfolio-analyzer/crypto-portfolio-analyzer)
-[![PyPI version](https://badge.fury.io/py/crypto-portfolio-analyzer.svg)](https://badge.fury.io/py/crypto-portfolio-analyzer)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+1. Code Execution
 
-## Features
+![code_execution1](https://github.com/user-attachments/assets/ddbfad00-ecb5-40a7-a405-743976bab7ee)
 
-### 🚀 Feature 1: Meta-Driven CLI & Configuration (Implemented)
+![code_execution2](https://github.com/user-attachments/assets/f0ebc0af-dbff-44fc-86ef-2bcbe185b51e)
 
-- **Plugin-Based Architecture**: Hot-reloadable plugins with automatic discovery
-- **Hierarchical Commands**: Context inheritance between parent and child commands
-- **Advanced Configuration**: YAML defaults, environment overrides, encrypted secrets
-- **Structured Logging**: JSON logging with dynamic sampling and Sentry integration
-- **Code Quality**: Pre-commit hooks with mypy, flake8, and security scanning
-- **Interactive Development**: Hidden debug REPL with IPython integration
+![code_execution3](https://github.com/user-attachments/assets/8b05281a-8481-473f-9325-a567e0f7ce56)
 
-### ✅ Completed Features
+![code_execution1](https://github.com/user-attachments/assets/b55f399b-f858-423e-a71a-0abc16a58933)
 
-- **Feature 1**: Modular plugin architecture with comprehensive configuration management
-- **Feature 5**: Real-time data streaming with WebSocket server and event system
+![code_execution2](https://github.com/user-attachments/assets/7e567ff0-5b1b-4c04-ad3b-71a6b5215c94)
 
-### 🔮 Upcoming Features
+![Code_execution1](https://github.com/user-attachments/assets/9578350d-3468-4646-99f5-05e5f9e13ede)
 
-- **Feature 2**: High-throughput price fetching with resilient API handling
-- **Feature 3**: Domain-driven portfolio management with event sourcing
-- **Feature 4**: Advanced analytics with streaming metrics and plugins
-- **Feature 6**: Dynamic visualization and reporting engine
-- **Feature 7**: Enterprise-grade export and distribution
-- **Feature 8**: Complete CI/CD pipeline with observability
+![code_execution2](https://github.com/user-attachments/assets/30e433df-6ac6-4c7a-9b9b-98e6a97c54eb)
 
-## Quick Start
+![code_execution3](https://github.com/user-attachments/assets/7d9eeb8a-a129-4bcb-bd1d-ab747306da7c)
 
-### Installation
+![code_execution1](https://github.com/user-attachments/assets/6e874082-8d2f-4471-9ccb-43faaa4e2fd5)
 
-```bash
-# Install from PyPI (when available)
-pip install crypto-portfolio-analyzer
+![code_execution2](https://github.com/user-attachments/assets/8a7a972c-4343-48d9-a7b2-66030d4f2cee)
 
-# Or install from source
-git clone https://github.com/crypto-portfolio-analyzer/crypto-portfolio-analyzer.git
-cd crypto-portfolio-analyzer
-pip install -e .[dev]
-```
+![code_execution1](https://github.com/user-attachments/assets/4603ec40-a0bc-4fef-a169-7984b761d765)
 
-### Basic Usage
+![code_execution2](https://github.com/user-attachments/assets/7f1218bd-01ec-4697-9ab6-0ad7d4947771)
 
-```bash
-# Show help
-crypto-portfolio --help
+![code_execution1](https://github.com/user-attachments/assets/b3ee016b-0f8b-48d3-8e60-6757ad5e824d)
 
-# Check version
-crypto-portfolio version
+![code_execution2](https://github.com/user-attachments/assets/904a54d0-0328-4693-ae88-0b650e0a6db8)
 
-# List loaded plugins
-crypto-portfolio plugins
+![code_execution1](https://github.com/user-attachments/assets/5aa77be8-ef43-47ae-bd2e-5fb72dd898a4)
 
-# Portfolio management
-crypto-portfolio portfolio status
-crypto-portfolio portfolio add btc 0.5 --price 30000
-crypto-portfolio portfolio list --format table
+![code_execution2](https://github.com/user-attachments/assets/8fe0a55b-e384-427d-9ee0-ed4475cd5f06)
 
-# Configuration management
-crypto-portfolio config show
-crypto-portfolio config set logging.level DEBUG
-crypto-portfolio config secrets --list
 
-# Real-time streaming
-crypto-portfolio stream monitor --symbols BTC,ETH --provider mock
-crypto-portfolio stream start --port 8000 --symbols BTC,ETH
-crypto-portfolio stream test --symbols BTC --duration 10
-```
+2. Test Execution
 
-### Development Mode
+![test_execution](https://github.com/user-attachments/assets/0aa02ecb-8d79-4b83-bf40-b1b50db6d9ae)
 
-```bash
-# Enable debug mode with verbose output
-crypto-portfolio --debug --verbose portfolio status
+![test_execution](https://github.com/user-attachments/assets/4c4f3571-1603-4d4b-82f7-91f58a347940)
 
-# Access debug REPL (requires --debug flag)
-crypto-portfolio --debug debug-repl
-```
+![test_execution1](https://github.com/user-attachments/assets/a087015f-ae18-4b63-97bc-4a254733c169)
 
-## Development Setup
+![Test_execution](https://github.com/user-attachments/assets/56ecd16a-981f-4385-9441-8fe895fe94fe)
 
-### Prerequisites
+![test_execution1](https://github.com/user-attachments/assets/2147e5fd-4f4f-480e-8dde-dfbc50ac95f0)
 
-- Python 3.8 or higher
-- Git
-- Docker (optional, for containerized development)
+![test_execution2](https://github.com/user-attachments/assets/9fc638f4-31d2-489d-9701-b32aa941a40a)
 
-### Local Development Environment
+![test_execution](https://github.com/user-attachments/assets/b0f6338a-2b4b-4f38-9d72-2afc011badb4)
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/crypto-portfolio-analyzer/crypto-portfolio-analyzer.git
-   cd crypto-portfolio-analyzer
-   ```
+![tes_execution1](https://github.com/user-attachments/assets/ff726e63-c3a1-475a-8c23-e82bbb45333d)
 
-2. **Set up virtual environment**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+![test_execution2](https://github.com/user-attachments/assets/aa04bc03-5596-44cb-b6d5-d78df08c0b23)
 
-3. **Install development dependencies**:
-   ```bash
-   pip install -e .[dev]
-   ```
+![test_execution1](https://github.com/user-attachments/assets/357f8903-0c17-4a8f-b647-fb205dd78246)
 
-4. **Set up pre-commit hooks**:
-   ```bash
-   pre-commit install
-   ```
+![test_execution2](https://github.com/user-attachments/assets/a50eebd9-5305-4249-868b-ec240cbfca5c)
 
-5. **Copy environment configuration**:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
+Project Features Mapped to Conversations
 
-### Local KMS Emulator Setup
-
-For development and testing of encrypted secrets without AWS KMS:
-
-1. **Install LocalStack** (for KMS emulation):
-   ```bash
-   pip install localstack
-   ```
-
-2. **Start LocalStack**:
-   ```bash
-   localstack start -d
-   ```
-
-3. **Configure environment**:
-   ```bash
-   export CRYPTO_PORTFOLIO_SECURITY_KMS_ENABLED=false
-   # The application will automatically use local encryption
-   ```
-
-### Test Secrets Injection
-
-For development and testing:
-
-1. **Set test secrets**:
-   ```bash
-   crypto-portfolio config secrets --set api_key "test_api_key_12345"
-   crypto-portfolio config secrets --set secret_key "test_secret_key_67890"
-   ```
-
-2. **Verify secrets**:
-   ```bash
-   crypto-portfolio config secrets --list
-   crypto-portfolio config secrets --get api_key
-   ```
-
-3. **Test encryption**:
-   ```bash
-   # Secrets are automatically encrypted and stored in crypto_portfolio_analyzer/config/secrets.enc
-   ls -la crypto_portfolio_analyzer/config/
-   ```
-
-### Dynamic Plugin Loading
-
-#### Creating Custom Plugins
-
-1. **Create a plugin file** in the `plugins/` directory:
-   ```python
-   # plugins/my_custom_plugin.py
-   from crypto_portfolio_analyzer.core.plugin_manager import BasePlugin
+   Conversation 1: Feature 1 establishes a meta-driven, plugin-enabled CLI with dynamic command discovery from both pyproject.toml entry points and a local plugins/ directory, hot-reloading new commands on file changes. A hierarchical configuration system merges YAML defaults and dotenv overrides for flexible environment management. Structured JSON logging includes dynamic sampling and Sentry integration. Pre-commit hooks enforce mypy, flake8, and Bandit checks, while a custom Click parameter type validates values against remote schemas with shell autocompletion. A GitHub Actions CI pipeline automates linting, type-checking, testing, and Docker image builds.
    
-   class MyCustomPlugin(BasePlugin):
-       """Custom plugin example."""
-       
-       __version__ = "1.0.0"
-       __author__ = "Your Name"
-       
-       def __init__(self, name="my_custom_plugin"):
-           super().__init__(name)
-       
-       async def initialize(self):
-           print(f"Initializing {self.name}")
-       
-       async def teardown(self):
-           print(f"Shutting down {self.name}")
-       
-       async def on_command_start(self, command_name, context):
-           if command_name.startswith('portfolio'):
-               print(f"Portfolio command started: {command_name}")
-   ```
-
-2. **Test hot-reloading**:
-   ```bash
-   # Start the application with hot-reload enabled
-   crypto-portfolio --debug plugins
+   Conversation 2: Feature 2 delivers a high-throughput, resilient price-fetching engine built on asyncio and aiohttp, coordinating a token-bucket RateLimiter for API calls. It implements a custom exponential backoff with full jitter, differential retry logic for idempotent methods, and a two-level cache: in-memory LRU for hot symbols and persistent SQLite for cold data. Each API response is validated against a JSON Schema via Pydantic, and OpenTelemetry spans export traces to Jaeger. A Rich-powered TUI batch mode processes CSV-driven bulk imports with real-time progress feedback.
    
-   # In another terminal, modify the plugin file
-   # The plugin will be automatically reloaded
-   ```
-
-3. **Plugin development workflow**:
-   ```bash
-   # Watch plugin loading
-   crypto-portfolio --debug --verbose plugins
+   Conversation 3: Feature 3 applies domain-driven design to portfolio management, defining an aggregate root and value objects (Coin, Amount, CostBasis) that enforce business invariants. A generic Repository[T] interface enables runtime swapping between in-memory and SQLAlchemy-backed stores, with thread safety via asyncio.Lock and threading.RLock. Pydantic models validate inputs and auto-generate OpenAPI schemas for future HTTP endpoints. A domain event bus streams CoinAdded and CoinRemoved events to Kafka for real-time dashboards. Chunked pandas CSV imports and CLI autocompletion complete a robust asset-management workflow.
    
-   # Test plugin functionality
-   crypto-portfolio portfolio status  # Your plugin events will fire
+   Conversation 4: Feature 4 introduces a plugin registry for performance metrics: implementations of BaseMetric (e.g., Sharpe, Sortino) are auto-discovered and computed in a streaming pipeline ingesting WebSocket price ticks. A CQRS pattern writes events to an append-only PostgreSQL event store, projecting read models for fast P/L and exposure queries. Async tasks update a Rich TUI dashboard with live spinners, while Prometheus metrics and bundled Grafana dashboards track operational health. Dask integration scales calculations across clusters, and Hypothesis-based fuzz testing ensures metric stability under randomized inputs.
    
-   # Debug plugin issues
-   crypto-portfolio --debug debug-repl
-   # In REPL: plugin_manager.get_plugin('my_custom_plugin')
-   ```
+   Conversation 5: Feature 5 establishes enterprise-grade persistence with SQLAlchemy Core and ORM hybrid models, custom indexes, and scoped sessions for concurrency safety. Alembic integration supports auto-generated migrations tested end-to-end in memory. On startup, schema drift is detected and either auto-patched or reported as a schema diff. Sensitive fields use encrypted SQLAlchemy TypeDecorators backed by AWS KMS. A backup/restore CLI streams compressed snapshots to S3 with checksum verification. Built-in health checks, connection pooling, and an optional “migrate-on-startup” flag ensure resilience and disaster recovery.
 
-## Testing
+   Conversation 6: Feature 6 provides a modular plotting engine that loads visualizer plugins from visualizers/, each exposing a draw(ax, data) interface. A headless “report server” mode powered by FastAPI and Uvicorn serves cached SVG charts from Redis, while a JSON-driven layout system supports complex grid specs, dual axes, and annotated subplots. A real-time Bokeh dashboard polls Prometheus exporters for live updates. Pytest with the Agg backend validates figure structure automatically. CLI hot-reload, strict mypy enforcement, and rendering telemetry round out a fully observable visualization suite.
 
-### Running Tests
+   Conversation 7: Feature 7 implements a Strategy pattern for report generation, dynamically loading CSVReporter, PDFReporter, and HTMLReporter classes via entry points. HTML reports leverage Jinja2 templates, bundled CSS/JS, and Chart.js for interactive data, while PDFs incorporate watermarks, encryption for per-user permissions, and embedded metadata. The send-report command integrates with SendGrid, managing TLS, retries, and local audit logging. Docker packaging spins up a secure HTTP server with Let’s Encrypt TLS. CI security scans, performance benchmarks, and optional cloud storage exports ensure compliant, scalable distribution pipelines.
 
-```bash
-# Run all tests
-pytest
+   Conversation 8: Feature 8 completes the lifecycle with CI/CD, packaging, and observability. A tox.ini automates testing across Python 3.8–3.11 in parallel environments (async, db, report). A multi-stage Dockerfile separates lint, test, and runtime stages into minimal production images. GitHub Actions matrices run flake8, mypy, pytest with coverage gates, CodeQL scans, Docker builds, and PyPI deployments on tags. Sentry captures performance spans, while Prometheus exporters and Grafana dashboards monitor latency, error rates, and resource usage. End-to-end smoke tests validate nightly PyPI installs and core CLI commands.
 
-# Run with coverage
-pytest --cov=crypto_portfolio_analyzer --cov-report=html
 
-# Run specific test categories
-pytest -m unit          # Unit tests only
-pytest -m integration   # Integration tests only
-pytest -m "not slow"    # Skip slow tests
 
-# Run tests with verbose output
-pytest -v --tb=short
-```
 
-### Test Categories
 
-- **Unit Tests**: Fast, isolated component tests
-- **Integration Tests**: Multi-component interaction tests
-- **Async Tests**: Asynchronous functionality tests
-- **Plugin Tests**: Plugin system and lifecycle tests
 
-### Test Coverage
 
-The project maintains >80% test coverage. View coverage reports:
 
-```bash
-# Generate HTML coverage report
-pytest --cov=crypto_portfolio_analyzer --cov-report=html
-open htmlcov/index.html
-```
 
-## Configuration
-
-### Configuration Hierarchy
-
-1. **Default Configuration**: `crypto_portfolio_analyzer/config/default.yaml`
-2. **Environment-Specific**: `crypto_portfolio_analyzer/config/{environment}.yaml`
-3. **Environment Variables**: `CRYPTO_PORTFOLIO_*` prefixed variables
-4. **Encrypted Secrets**: `crypto_portfolio_analyzer/config/secrets.enc`
-
-### Environment Variables
-
-```bash
-# Application settings
-CRYPTO_PORTFOLIO_APP_DEBUG=false
-CRYPTO_PORTFOLIO_APP_VERBOSE=false
-
-# Logging configuration
-CRYPTO_PORTFOLIO_LOGGING_LEVEL=INFO
-CRYPTO_PORTFOLIO_LOGGING_STRUCTURED=true
-
-# Plugin settings
-CRYPTO_PORTFOLIO_PLUGINS_HOT_RELOAD=true
-
-# Security settings
-CRYPTO_PORTFOLIO_SECURITY_KMS_ENABLED=false
-CRYPTO_PORTFOLIO_SECURITY_KMS_KEY_ID=your-kms-key-id
-```
-
-### Secret Management
-
-```bash
-# Set secrets (encrypted automatically)
-crypto-portfolio config secrets --set api_key "your-api-key"
-crypto-portfolio config secrets --set database_password "secure-password"
-
-# List secret keys (values are hidden)
-crypto-portfolio config secrets --list
-
-# Get specific secret
-crypto-portfolio config secrets --get api_key
-
-# Delete secret
-crypto-portfolio config secrets --delete old_api_key
-```
-
-## Architecture
-
-### Core Components
-
-- **CLI System**: Click-based hierarchical commands with context inheritance
-- **Plugin Manager**: Hot-reloadable plugin system with lifecycle management
-- **Event Bus**: Async publish-subscribe system for component communication
-- **Configuration Manager**: Multi-tier configuration with encryption support
-- **Logging System**: Structured JSON logging with sampling and Sentry integration
-
-### Plugin Architecture
-
-```
-plugins/
-├── __init__.py
-├── portfolio.py      # Core portfolio management
-├── config.py         # Configuration management
-└── custom/           # Custom user plugins
-    ├── my_plugin.py
-    └── analytics.py
-```
-
-### Event System
-
-```python
-# Subscribe to events
-event_bus.subscribe(EventType.COMMAND_START, my_handler)
-
-# Publish events
-await event_bus.publish_event(
-    EventType.PLUGIN_LOADED,
-    "plugin_manager",
-    {"plugin_name": "my_plugin"}
-)
-```
-
-## Contributing
-
-### Development Workflow
-
-1. **Fork and clone** the repository
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make changes** and add tests
-4. **Run quality checks**: `pre-commit run --all-files`
-5. **Run tests**: `pytest`
-6. **Commit changes**: `git commit -m "Add amazing feature"`
-7. **Push to branch**: `git push origin feature/amazing-feature`
-8. **Create Pull Request**
-
-### Code Quality Standards
-
-- **Type Hints**: All code must include type hints
-- **Documentation**: Docstrings for all public APIs
-- **Testing**: >80% test coverage required
-- **Linting**: Code must pass flake8, mypy, and bandit checks
-- **Formatting**: Code formatted with Black and isort
-
-### Pre-commit Hooks
-
-The project uses comprehensive pre-commit hooks:
-
-```bash
-# Install hooks
-pre-commit install
-
-# Run manually
-pre-commit run --all-files
-
-# Update hooks
-pre-commit autoupdate
-```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Plugin Loading Errors**:
-   ```bash
-   # Check plugin syntax
-   python -m py_compile plugins/my_plugin.py
-   
-   # Debug plugin loading
-   crypto-portfolio --debug plugins
-   ```
-
-2. **Configuration Issues**:
-   ```bash
-   # Validate configuration
-   crypto-portfolio config validate
-   
-   # Check configuration sources
-   crypto-portfolio config show --format yaml
-   ```
-
-3. **Secret Management**:
-   ```bash
-   # Reset secrets (creates new encryption key)
-   rm crypto_portfolio_analyzer/config/secrets.enc
-   rm crypto_portfolio_analyzer/config/.secret_key
-   ```
-
-### Debug Mode
-
-```bash
-# Enable comprehensive debugging
-crypto-portfolio --debug --verbose command
-
-# Access debug REPL
-crypto-portfolio --debug debug-repl
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Built with [Click](https://click.palletsprojects.com/) for CLI framework
-- Uses [Rich](https://rich.readthedocs.io/) for beautiful terminal output
-- Powered by [asyncio](https://docs.python.org/3/library/asyncio.html) for async operations
-- Secured with [cryptography](https://cryptography.io/) for encryption
-
----
-
-**Note**: This is Feature 1 of an 8-feature roadmap. Additional features including price fetching, analytics, visualization, and enterprise features are planned for future releases.
